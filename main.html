@@ -4,20 +4,21 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<title>Signup form</title>
 </head>
 
 <body>
 	<div class="container">
 	<form method="post" class="form">
 		<label for="name">Name:</label>
-		<input type="text" required id="name" placeholder="Name"><br><br>
-		<label for="email">Email:</label>
-		<input type="Email" required id="email" placeholder="Email"><br><br>
+		<input type="Text" id="name" placeholder="Name" required><br><br>
+		<label for="Email">Email:</label>
+		<input type="Email" id="email" placeholder="Email" required><br><br>
 		<label for="gender">Gender:</label><span></span>
 		<label for="gender">male:</label>
-		<input type="radio" required id="gender_m" name="gender">
+		<input type="radio"id="gender_m" name="gender" required>
 		<label for="gender">female:</label>
-		<input type="radio" required id="gender_f" name="gender"><br><br>
+		<input type="radio" id="gender_f" name="gender" required><br><br>
 		<label for="brands">Car Brands:</label>
 		<select name="cars" id="cars">
   <option value="volvo">Volvo</option>
@@ -27,15 +28,15 @@
 </select>
 		<br><br>
 		<label for="age">Age:</label>
-		<input type="number" required id="age" placeholder="Age"><br><br>
+		<input type="number"id="age" placeholder="Age" required><br><br>
 		<label for="DOB">DOB:</label>
-		<input type="date" required id="dob"><br><br>
+		<input type="date" id="dob" aria-required><br><br>
 		<label for="contact">Phone Number:</label>
 		<input type="tel" id="tel" placeholder="xxx-xxx-xxxx"><br><br>
 		<label for="password">Password:</label>
-		<input type="password" required id="password" placeholder="Password"><br><br>
+		<input type="password" id="password" placeholder="Password" required><br><br>
 		<label for="tos">I agree to the TOS</label>
-		<input type="checkbox" required id="tos">
+		<input type="checkbox" id="tos" required>
 		<div class="btn"><button class="btn1" type="submit">submit</button></div>
 	</div>
 	</form>
