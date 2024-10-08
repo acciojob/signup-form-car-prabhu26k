@@ -1,2 +1,14 @@
-
-/* Your CSS Code here. */
+body{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	min-height:100vh;
+}
+.btn{
+	display:block;
+	width:100%;
+	padding:10px 0 0 0;
+}
+.btn1{
+	width:100%;
+}
